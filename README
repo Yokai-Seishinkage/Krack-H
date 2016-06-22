@@ -1,7 +1,7 @@
 # Krack-H by Yokai Seishinkage
 A hash cracker that accepts sha1, sha256, sha384, sha512, and md5 hashes.
 
-Hash cracking tool written in bash and ported to C.
+Hash cracking tool written in bash.
 
 ## Installation ##
 
@@ -9,7 +9,7 @@ git clone https://github.com/Yokai-Seishinkage/Krack-H.git
 
 cd Krack-H
 
-chmod +x krack-H
+chmod +x krack-H.sh
 
 ## Dependencies ##
 
@@ -20,7 +20,7 @@ bash version 4.3.42
 
 cd into Krack-H directory
 chmod +x krack-H
-./krack-H
+./krack-H.sh
 
 Enter the hash you wish to crack including a double space and a dash "-" on the end.
 
