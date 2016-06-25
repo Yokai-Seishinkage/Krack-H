@@ -34,7 +34,7 @@ end the script and you will have to start over. Such is the nature of this beast
 
 Any issues report them asap. I will correct them as soon as I can.
 
-This tool is written in bash and ported to C code. It is obviously not going to be as 
+This tool is written in bash. It is obviously not going to be as 
 fast as a tool such as John the Ripper or Aircrack-ng. However, this tool works 
 exceptionally fast with lighter wordlists (i.e. less than 500000 lines). Using a tool 
 such as crunch, one can make small wordlists that are very specific and krack-H 
