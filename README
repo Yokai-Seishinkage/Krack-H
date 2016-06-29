@@ -9,7 +9,7 @@ git clone https://github.com/Yokai-Seishinkage/Krack-H.git
 
 cd Krack-H
 
-chmod +x krack-H.sh
+chmod +x krack-H
 
 ## Dependencies ##
 
@@ -20,7 +20,7 @@ bash version 4.3.42
 
 cd into Krack-H directory
 chmod +x krack-H
-./krack-H.sh
+./krack-H
 
 Enter the hash you wish to crack including a double space and a dash "-" on the end.
 
