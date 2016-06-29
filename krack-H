@@ -41,6 +41,23 @@ if [ "$CHOICE" == "1" ]; then
                      exit 0
 fi
 
+if [ "$CHOICE" -lt "1" ]
+then
+  clear
+  echo -e "\x1b[31m Incorrect entry!\x1b[0m"
+  sleep 3
+  clear
+  main
+
+        elif [ "$CHOICE" -gt "6" ]
+        then
+             clear
+	     echo -e "\x1b[31m Incorrect entry!\x1b[0m"
+	     sleep 3
+  	     clear
+             main
+fi
+
     echo -e " Enter the hash to crack.\n"
     read MD5
     echo -e " Enter the wordlist to use.\n"
