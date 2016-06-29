@@ -1,13 +1,14 @@
 #!/bin/bash
-clear
 
-##################################
+###################################
 ## krack-H by Yokai Seishinkage. ##
-##################################
+###################################
 
 main() {
+clear
 
 sub_main() {
+clear
 
 echo -e " What kind of hash would you like to crack?\n"
 echo -e "~~~~~~~~~~~~~~~~~~~~~~~~ "
