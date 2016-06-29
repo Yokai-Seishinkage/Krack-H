@@ -27,6 +27,8 @@ Enter the hash you wish to crack including a double space and a dash "-" on the 
 (i.e. MD5 Hash for the word "password" would be: 5f4dcc3b5aa765d61d8327deb882cf99  - )
 Then follow the directions as you are prompted.
 
+This tool does not, yet, accept salted hashes.
+
 ## Notes ##
 
 There is very little error correction. Most errors (such as user input errors) will
